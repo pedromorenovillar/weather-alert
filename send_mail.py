@@ -26,4 +26,3 @@ def send_email(recipient_email, subject, contents):
             to_addrs=recipient_email,
             msg=msg.as_string()
         )
-    print("Email sent!")
