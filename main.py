@@ -45,7 +45,6 @@ for index in range(len(weather_data["list"])):
 # Creates email contents
 email_body_lines = [reversed_date] + daily_report[:6]
 email_contents = "\n".join(email_body_lines)
-print(email_contents)
 
 # Sends email with different subject lines if it is going to rain
 rain = False
